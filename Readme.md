@@ -6,28 +6,28 @@
 
 ```php
 // Get Patreon posts
-$patreon = new \daemionfox\Patreon\Feed("SomeCreator");
+$patreon = new \daemionfox\Patreon\Feed("Yoonie");
 $posts = $patreon->getPosts();
 print_r($posts);
 ```
 
 ```php
 // Get Patreon user data
-$patreon = new \daemionfox\Patreon\Feed("SomeCreator");
+$patreon = new \daemionfox\Patreon\Feed("Yoonie");
 $user = $patreon->getUser();
 print_r($user);
 ```
 
 ```php
 // Get Patreon campaign data
-$patreon = new \daemionfox\Patreon\Feed("SomeCreator");
+$patreon = new \daemionfox\Patreon\Feed("Yoonie");
 $camp = $patreon->getCampaign();
 print_r($camp);
 ```
 
 ```php
 // Get RSS feed
-$patreon = new \daemionfox\Patreon\Feed("SomeCreator");
+$patreon = new \daemionfox\Patreon\Feed("Yoonie");
 $rss = $patreon->rss();
 echo $rss;
 ```
@@ -35,7 +35,7 @@ echo $rss;
 
 ```php
 // Login to access your private feed.
-$patreon = new \daemionfox\Patreon\Feed("user@example.com", "1n53cur3");
+$patreon = new \daemionfox\Patreon\Feed("siwong13@gmail.com", "1agumones");
 $rss = $patreon->rss();
 echo $rss;
 ```
